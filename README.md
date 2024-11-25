@@ -1,9 +1,14 @@
 <h1 align="center">Hi 👋, I'm here coders</h1>
-<h3 align="center">Soy un apasionado de los datos y lo que pueden generar</h3>
+<h2 align="center">Soy un apasionado de los datos y lo que pueden generar</h2>
+
+<h3 align="center">Hola soy Hugo Joseé Humberto Jara Zaquelli. Me gusta explorar los datos y me alegra cada vez que logro encontrar insight en los mismos.
+También la tecnología IoT, como ambas se pueden complementar para obetner datos e información. En mis repositorios encontrarás algunos de mis trabajos. Y pronto seguirá creciendo.
+
+Espero pronto estar colaborando con más proyectos, algunos de los que actualmente uso también.</h3>
 
 - 🔭 Estoy trabajando actualmente **Mejorar mis habilidades de Programación**
 
-- 🌱 I’m currently learning **Python, Machine Learning, Inteligencia Artificial**
+- 🌱 Actualmente estoy mejorando mis habilidades en  **Python, Machine Learning, Inteligencia Artificial**
 
 - 👯 Estoy colaborando con [Proyecto Final Henry](https://github.com/hzaquelli82/Proyecto_Final_Yelp)
 
