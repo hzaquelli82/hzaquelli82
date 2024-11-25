@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm here coders</h1>
 <h2 align="center">Soy un apasionado de los datos y lo que pueden generar</h2>
 
-<h3 align="center">Hola soy Hugo Joseé Humberto Jara Zaquelli. Me gusta explorar los datos y me alegra cada vez que logro encontrar insight en los mismos.
+<h3 align="center">Hola soy Hugo José Humberto Jara Zaquelli. Me gusta explorar los datos y me alegra cada vez que logro encontrar insight en los mismos.
 También la tecnología IoT, como ambas se pueden complementar para obetner datos e información. En mis repositorios encontrarás algunos de mis trabajos. Y pronto seguirá creciendo.
 
 Espero pronto estar colaborando con más proyectos, algunos de los que actualmente uso también.</h3>
