@@ -37,4 +37,6 @@ Espero pronto estar colaborando con más proyectos, algunos de los que actualmen
   <span style="font-size: 16px; vertical-align: middle;">+54 9 3482 614267</span>
 </p>
 
-
+<p align="left">
+  <span style="font-size: 16px; vertical-align: middle;">País ARGENTINA</span>
+</p>
