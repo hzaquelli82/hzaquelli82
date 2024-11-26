@@ -31,9 +31,10 @@ Espero pronto estar colaborando con más proyectos, algunos de los que actualmen
   <a href="https://instagram.com/hugo jara zaquelli" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
   </a>
-  <a href="tel:+5493482614267" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/phone.svg" alt="Phone" height="30" width="40" />
-  </a>
+ </p>
+<p align="left">
+  <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/phone.svg" alt="Phone" height="30" width="40" />
+  <span style="font-size: 16px; vertical-align: middle;">+54 9 3482 614267</span>
 </p>
 
 
