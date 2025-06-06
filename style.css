@@ -1,0 +1,268 @@
+/* Variables de color de tu paleta */
+:root {
+    --color-orange-light: #F2A663;
+    --color-orange-medium: #F29057;
+    --color-brown-dark: #732C12;
+    --color-grey-light: #BFBFBF;
+    --color-black-dark: #0D0D0D;
+}
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: var(--color-black-dark);
+    background-color: #f4f4f4; /* Un gris muy claro para el fondo general */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4 {
+    color: var(--color-brown-dark);
+    margin-bottom: 15px;
+}
+
+a {
+    color: var(--color-orange-medium);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-orange-light);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.primary-btn {
+    background-color: var(--color-orange-medium);
+    color: white;
+}
+
+.primary-btn:hover {
+    background-color: var(--color-brown-dark);
+}
+
+.secondary-btn {
+    background-color: var(--color-grey-light);
+    color: var(--color-black-dark);
+    border: 1px solid var(--color-grey-light);
+}
+
+.secondary-btn:hover {
+    background-color: var(--color-orange-medium);
+    color: white;
+}
+
+/* Header */
+.main-header {
+    background-color: var(--color-brown-dark);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .logo {
+    margin: 0;
+    color: white;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.main-nav ul li a:hover {
+    background-color: var(--color-orange-medium);
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-grey-light);
+}
+
+.hero-section {
+    background-color: var(--color-orange-light);
+    color: var(--color-brown-dark);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-section h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.about-section {
+    background-color: white;
+}
+
+.about-section ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.portfolio-section {
+    background-color: var(--color-grey-light);
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.portfolio-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-item h4 {
+    margin: 15px 0 10px;
+    color: var(--color-brown-dark);
+}
+
+.portfolio-item p {
+    padding: 0 15px 15px;
+    font-size: 0.9em;
+    color: var(--color-black-dark);
+}
+
+.portfolio-item .btn {
+    margin-bottom: 15px;
+}
+
+.contact-section {
+    background-color: var(--color-orange-light);
+    color: var(--color-brown-dark);
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: calc(100% - 20px); /* Ajuste para el padding */
+    padding: 10px;
+    border: 1px solid var(--color-grey-light);
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: auto;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 1.1em;
+    border: none;
+}
+
+/* Footer */
+.main-footer {
+    background-color: var(--color-black-dark);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .main-header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .main-nav ul li {
+        margin: 5px 0;
+    }
+
+    .hero-section h2 {
+        font-size: 2.2em;
+    }
+
+    .hero-section p {
+        font-size: 1em;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+}
