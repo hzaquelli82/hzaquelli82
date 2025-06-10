@@ -3,99 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tu Nombre - Portafolio IT</title>
+    <title>Hugo Jara Zaquelli - Data Scientist</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="main-header">
-        <div class="container">
-            <h1 class="logo">Tu Nombre</h1>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#hero">Inicio</a></li>
-                    <li><a href="#about">Sobre Mí</a></li>
-                    <li><a href="#portfolio">Portafolio</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                </ul>
-            </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>HOLA! SOY HUGO</h1>
+                <h2>DATA SCIENTIST</h2>
+                <p>Apasionado por transformar datos en conocimientos valiosos, creando soluciones innovadoras. Mi compromiso con la excelencia se refleja en cada proyecto, donde el análisis riguroso y la visión estratégica se unen para impulsar el éxito.</p>
+                <div class="contact-info">
+                    <span><img src="icons/email.png" alt="Email Icon"> hola@holajh.com</span>
+                    <span><img src="icons/location.png" alt="Location Icon"> Buenos Aires, Argentina</span>
+                    <span><img src="icons/linkedin.png" alt="LinkedIn Icon"> linkedin.com/in/hugojarah</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/hugo_avatar.png" alt="Hugo Jara Zaquelli Avatar">
+            </div>
         </div>
     </header>
 
-    <section id="hero" class="hero-section">
-        <div class="container">
-            <h2>Hola, soy [Tu Nombre]</h2>
-            <p>Desarrollador Full Stack apasionado por crear soluciones innovadoras.</p>
-            <a href="#portfolio" class="btn primary-btn">Ver Proyectos</a>
+    <section class="about-section">
+        <div class="about-image">
+            <img src="images/keyboard.png" alt="Keyboard">
+        </div>
+        <div class="about-text">
+            <h3>ABOUT ME</h3>
+            <p>Con una sólida trayectoria en el análisis de datos, me especializo en la implementación de modelos predictivos y el desarrollo de estrategias basadas en datos. Mi enfoque se centra en la resolución de problemas complejos, la optimización de procesos y la toma de decisiones informadas para lograr resultados significativos. Siempre buscando aprender y crecer en el campo de la ciencia de datos.</p>
         </div>
     </section>
 
-    <section id="about" class="about-section">
-        <div class="container">
-            <h3>Sobre Mí</h3>
-            <p>Soy un desarrollador con experiencia en [lenguaje/tecnología 1], [lenguaje/tecnología 2] y [lenguaje/tecnología 3]. Me especializo en la creación de aplicaciones web robustas y escalables, siempre buscando aprender y aplicar las últimas tecnologías.</p>
-            <p>Mis habilidades incluyen:</p>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Angular o Vue.js</li>
-                <li>Node.js, Python o PHP</li>
-                <li>Bases de datos (SQL, NoSQL)</li>
-                <li>Control de versiones (Git)</li>
-            </ul>
+    <section class="education-experience">
+        <h3>Education & Experience</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="year">2022</div>
+                <div class="description">
+                    <h4>LIC. EN CIENCIAS DE LA COMPUTACIÓN</h4>
+                    <p>Universidad Tecnológica Nacional</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2021</div>
+                <div class="description">
+                    <h4>DATA SCIENCE & MACHINE LEARNING</h4>
+                    <p>Coderhouse</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="year">2020</div>
+                <div class="description">
+                    <h4>FRONT END DEVELOPER</h4>
+                    <p>Coderhouse</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-proficiencies">
+        <div class="skills-content">
+            <div class="what-i-can-do">
+                <h3>WHAT CAN I DO</h3>
+                <h2>Skills & Proficiencies</h2>
+            </div>
+            <div class="skill-bars">
+                <div class="skill-item">
+                    <h4>Python</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>SQL</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>Machine Learning</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>Data Visualization</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h4>Cloud Computing</h4>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="portfolio" class="portfolio-section">
-        <div class="container">
-            <h3>Mis Proyectos</h3>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200/BFBFBF/0D0D0D?text=Proyecto+1" alt="Proyecto 1">
-                    <h4>Nombre del Proyecto 1</h4>
-                    <p>Breve descripción del proyecto 1. Tecnologías utilizadas: HTML, CSS, JS.</p>
-                    <a href="#" class="btn secondary-btn" target="_blank">Ver Proyecto</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200/BFBFBF/0D0D0D?text=Proyecto+2" alt="Proyecto 2">
-                    <h4>Nombre del Proyecto 2</h4>
-                    <p>Breve descripción del proyecto 2. Tecnologías utilizadas: React, Node.js.</p>
-                    <a href="#" class="btn secondary-btn" target="_blank">Ver Proyecto</a>
-                </div>
-                <div class="portfolio-item">
-                    <img src="https://via.placeholder.com/300x200/BFBFBF/0D0D0D?text=Proyecto+3" alt="Proyecto 3">
-                    <h4>Nombre del Proyecto 3</h4>
-                    <p>Breve descripción del proyecto 3. Tecnologías utilizadas: Python, Django.</p>
-                    <a href="#" class="btn secondary-btn" target="_blank">Ver Proyecto</a>
-                </div>
-                </div>
+        <div class="portfolio-image">
+            <img src="images/portfolio_screenshot.png" alt="Portfolio Screenshot">
+        </div>
+        <div class="portfolio-text">
+            <h3>WHAT I'M WORKING ON</h3>
+            <h2>Portfolio</h2>
+            <a href="#" class="btn">View My Works</a>
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h3>Contáctame</h3>
-            <p>¿Tienes una idea o un proyecto en mente? ¡Hablemos!</p>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mensaje:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn primary-btn">Enviar Mensaje</button>
-            </form>
-            <p>También puedes encontrarme en: <a href="https://www.linkedin.com/in/tuperfil" target="_blank">LinkedIn</a> | <a href="https://github.com/tucodigo" target="_blank">GitHub</a></p>
-        </div>
+    <section class="testimonial-section">
+        <p>"Ms. Strom is a one-of-a-kind game developer with immense creativity backed by solid technical skills. She is able to craft games that both challenge and inspire our clients."</p>
+        <p class="author">- KEITH SKANSSIONS</p>
+        <p class="role">Chief Operating Officer - Matchbox</p>
     </section>
 
-    <footer class="main-footer">
-        <div class="container">
-            <p>&copy; 2025 Tu Nombre. Todos los derechos reservados.</p>
+    <footer class="footer-section">
+        <h2>Reach out!</h2>
+        <div class="footer-content">
+            <div class="contact-left">
+                <p>Want to work with me?</p>
+                <p>I'm always open to new opportunities and collaborations. Feel free to contact me!</p>
+                <div class="footer-contact-info">
+                    <span><img src="icons/email_white.png" alt="Email Icon"> hola@holajh.com</span>
+                    <span><img src="icons/phone_white.png" alt="Phone Icon"> +54 9 11 XXXX XXXX</span>
+                    <span><img src="icons/website_white.png" alt="Website Icon"> www.holajh.com</span>
+                </div>
+            </div>
+            <div class="contact-right">
+                <p>Find me on:</p>
+                <div class="social-icons">
+                    <a href="#"><img src="icons/linkedin_white.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="icons/github_white.png" alt="GitHub"></a>
+                    <a href="#"><img src="icons/twitter_white.png" alt="Twitter"></a>
+                    <a href="#"><img src="icons/facebook_white.png" alt="Facebook"></a>
+                </div>
+            </div>
         </div>
     </footer>
 
