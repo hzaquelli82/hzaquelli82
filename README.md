@@ -22,13 +22,13 @@ Espero pronto estar colaborando con más proyectos, algunos de los que actualmen
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://linkedin.com/in/https://www.linkedin.com/in/hugo-josé-humberto-jara-zaquelli-78915b25/" target="blank">
+  <a href="https://www.linkedin.com/in/hugo-jara-zaquelli" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
   </a>
-  <a href="https://fb.com/hugo jara zaquelli" target="blank">
+  <a href="https://www.facebook.com/hugo.j.zaquelli" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="30" width="40" />
   </a>
-  <a href="https://instagram.com/hugo jara zaquelli" target="blank">
+  <a href="https://www.instagram.com/hugo_jara_zaquelli/" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="30" width="40" />
   </a>
  </p>
